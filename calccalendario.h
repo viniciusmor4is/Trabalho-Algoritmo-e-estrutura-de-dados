@@ -1,0 +1,31 @@
+
+struct No{
+    char tipo;
+    int dia, mes, ano;
+    char evento[26];
+    struct No *esq;
+    struct No *dir;
+};
+typedef struct No *Arvore;
+char* calcmes(int *mes);
+char* calcmesING(int *mes);
+int language();
+int escolher_ano();
+int escolher_mes();
+int choose_year();
+int escolhe_mini_calendario();
+int choose_mini_calendar();
+int choose_month();
+int calcula_calendario(int *dia, int *mes, int ano, int hh);
+void imprime_calendario(int aux1, int *dia, int *mes, int ano, struct pdf_doc *pdf, Arvore *raiz, int op1, int op2);
+Arvore* cria_arvore();
+void compara_dia(int i, int *mes, int ano, Arvore *raiz, struct pdf_doc *pdf, int op1, int op2);
+Arvore* ler_evento(int bus);
+int encadear_evento(char Tipo, int Dia, int Mes, int Ano, char frase[], Arvore *raiz);
+void imprime_arvore(Arvore *raiz, char Tipo, int bus, int ano, int mes, int idioma);
+void imprime_minidir(int aux1m, int *dia, int *proxMes, int proxAno, struct pdf_doc *pdf);
+void imprime_miniesq(int aux1mm, int *dia, int *MesAnt, int AnoAnt, struct pdf_doc *pdf);
+void busca(Arvore *raiz, int idioma);
+void imprime_lista(int aux1, int *dia, int *mes, int ano, Arvore *raiz, int op1, struct pdf_doc *pdf, int op2);
+void search(Arvore *raiz, int idioma);
+int encadear_dia(char Tipo, int Dia, int Mes, int Ano, char frase[], Arvore *raiz);
