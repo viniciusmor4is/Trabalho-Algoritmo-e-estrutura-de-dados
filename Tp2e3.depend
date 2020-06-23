@@ -1,0 +1,69 @@
+# depslib dependency file v1.0
+1562120243 source:c:\users\vcm11\desktop\tp_2_viniciusmorais_e_joaoigorandrade\calccalendario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pdfgen.h"
+	"calccalendario.h"
+
+1561404544 c:\users\vcm11\desktop\tp_2_viniciusmorais_e_joaoigorandrade\pdfgen.h
+	<stdint.h>
+	<stdio.h>
+	"pdfgen.h"
+
+1562097021 c:\users\vcm11\desktop\tp_2_viniciusmorais_e_joaoigorandrade\calccalendario.h
+
+1562099466 source:c:\users\vcm11\desktop\tp_2_viniciusmorais_e_joaoigorandrade\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pdfgen.h"
+	"calccalendario.h"
+
+1561404556 source:c:\users\vcm11\desktop\tp_2_viniciusmorais_e_joaoigorandrade\pdfgen.c
+	<ctype.h>
+	<errno.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<strings.h>
+	<sys/stat.h>
+	<time.h>
+	"pdfgen.h"
+
+1562120243 source:c:\users\vcm11\desktop\tp_3_viniciusmorais_e_joaoigorandrade\calccalendario.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pdfgen.h"
+	"calccalendario.h"
+
+1561404544 c:\users\vcm11\desktop\tp_3_viniciusmorais_e_joaoigorandrade\pdfgen.h
+	<stdint.h>
+	<stdio.h>
+	"pdfgen.h"
+
+1562097021 c:\users\vcm11\desktop\tp_3_viniciusmorais_e_joaoigorandrade\calccalendario.h
+
+1562099466 source:c:\users\vcm11\desktop\tp_3_viniciusmorais_e_joaoigorandrade\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"pdfgen.h"
+	"calccalendario.h"
+
+1561404556 source:c:\users\vcm11\desktop\tp_3_viniciusmorais_e_joaoigorandrade\pdfgen.c
+	<ctype.h>
+	<errno.h>
+	<math.h>
+	<stdarg.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<strings.h>
+	<sys/stat.h>
+	<time.h>
+	"pdfgen.h"
+

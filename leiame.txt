@@ -1,0 +1,20 @@
+=======================================================================================================================================================================
+INSTRUÇÕES DE USO DO PROJETO (Coloque em tela cheia para melhor leitura.)
+Para a execução do projeto, é necessário um programa compatível com a linguagem c. Durante a programção, foi-se utilizado o CodeBlocks (recomendado). Ao abrir a pasta
+com os arquivos do projeto, copie para ela o arquivo .txt com os eventos. O nome do arquivo não deve conter espaços, nem caracteres especiais, deve conter apenas letras
+e números. Clique e execute o arquivo do tipo project file Tp2e3.cbp. Caso use um programa diferente do CodeBlocks, execute o arquivo com nome main e adicione 
+calccalendario.c, calccalendario.h, pdfgen.c e pdfgen.h, conforme deve ser feito no seu programa. Assim, ao executar o projeto, é pedido para escolher o idioma em que 
+deseja que o projeto seja executado. Agora, 2 opções aparecem, uma para fazer uma busca e outra para imprimir o calendário em PDF. Caso seja selecionada a primeira 
+opção, mais 2 opções aparecem, referentes ao tipo da busca, seja por data ou por tipo de evento. Após a escolha, uma tela é exibida pedindo para inserir o nome do 
+arquivo. Escreva o nome do arquivo txt que contenha os eventos, sem a extensão .txt. Se for de desejo a busca por data, em seguida pedirá para escrever
+o ano e o mês desejados. Assim, aparecerão na tela os eventos refentes a esta data. Se for por evento, pedirá para inserir a inicial do tipo, assim como inserido no
+arquivo de eventos (Exemplo: escrever A para Aniversário). Então será escrito no terminal todos os eventos que existem desse tipo, ordenados por data, em ordem
+crescente, mostrando o nome do evento seguido de dia, mês e ano em que ocorre. Se algum deles for 0, representa que ocorre todo dia(se dia = 0), todo mês (se mês = 0)
+ou todo ano (se ano = 0). Caso seja escolhida opção para imprimir o calendário, pedirá para inserir o nome do arquivo. Escreva o nome do arquivo txt que contenha os 
+eventos, sem a extensão .txt. Logo após ao invés de busca, surgirá a opção de imprimir em lista ou em PDF. Após a escolha, em ambos casos pedirá para escolher o mês e 
+o ano. Em lista, será impresso no próprio terminal o calendario com os eventos. Em PDF, outra opção surge, para escolher o como quer que o calendario seja impresso. 
+Tem a possibilidade de ser com um calendario grande com o mês escolhido e um menor na parte superior direita do PDF referente ao mês seguinte, ou com um calendario 
+grande com o mês escolhido, um menor na parte superior direita referente ao mês seguinte e um menor na parte superior esquerda referente ao mês anterior. Um arquivo
+com nome "output.pdf" surgirá na pasta dos arquivos do projeto, ao executá-lo, abrirá o calendário com os detalhes escolhidos pelo usuário. O programa é então encerrado.
+=======================================================================================================================================================================
+
